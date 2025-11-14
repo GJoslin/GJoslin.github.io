@@ -1,275 +1,379 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Joslin Gadde | Guidewire Consultant</title>
-    <meta
-      name="description"
-      content="Portfolio website for Joslin Gadde, Guidewire consultant with 4+ years of experience in application configuration and integration."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="/assets/css/style.css" />
-    <link rel="icon" href="/assets/images/profile.jpeg" />
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Joslin Gadde | Guidewire Consultant & Developer</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="Guidewire Consultant with 4+ years experience in application configuration, integration, and PCF development. Currently pursuing MSc in Computer Science with Business Development." />
+</head>
+<body>
     <header>
-      <div class="container">
         <nav class="navbar">
-          <a class="nav-brand" href="#top">Joslin Gadde</a>
-          <div class="nav-controls">
-            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
-            <button class="mobile-menu-toggle" id="mobile-menu" aria-label="Toggle navigation">☰</button>
-          </div>
-          <ul class="nav-menu" id="nav-menu">
-            <li><a class="active" href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#certifications">Certifications</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+            <div class="container">
+                <div class="nav-brand">
+                    <a href="/">Joslin Gadde</a>
+                </div>
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                    <button class="theme-toggle" aria-label="Toggle dark mode" id="theme-toggle">🌙</button>
+                    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="/assets/docs/Joslin_Gadde_Resume.pdf" target="_blank">CV</a></li>
+                    <li><a href="https://www.linkedin.com/in/joslingadde" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
         </nav>
-      </div>
     </header>
 
-    <main class="container" id="top">
-      <section class="hero" id="about">
-        <div class="hero-card">
-          <img
-            class="profile-photo"
-            src="/assets/images/profile.jpeg"
-            alt="Photograph of Joslin Gadde"
-          />
-          <div class="hero-tag">Guidewire Specialist &amp; Engineer</div>
-          <h1>Joslin Gadde</h1>
-          <p class="hero-subtitle">
-            Associate Consultant with 4+ years designing Guidewire solutions for large insurance
-            carriers, blending technical depth with business empathy.
-          </p>
-          <div class="hero-actions">
-            <a class="btn" href="mailto:joslingadde@gmail.com">Email Joslin</a>
-            <a class="btn btn-secondary" href="https://www.linkedin.com/in/joslingadde" target="_blank" rel="noopener">LinkedIn</a>
-            <a class="btn btn-secondary" href="/assets/docs/Joslin_Gadde_Resume.pdf" target="_blank" rel="noopener">Download CV</a>
-          </div>
-        </div>
-        <div class="hero-summary">
-          <h2 class="section-title">Professional Snapshot</h2>
-          <p>
-            I shape resilient Guidewire ecosystems for insurers, specialising in hands-on
-            configuration, workflow design, and multi-system integrations. I thrive in
-            collaborative delivery squads where translating domain language into repeatable
-            technical outcomes is the daily challenge.
-          </p>
-          <ul class="details-list">
-            <li>
-              <strong>Focus Areas</strong>
-              PolicyCenter &amp; ClaimCenter configuration, integration upgrades, data insights,
-              and performance tuning.
-            </li>
-            <li>
-              <strong>Recent Wins</strong>
-              Led a Guidewire ClaimCenter upgrade, unlocking faster claims triage and better
-              partner integrations for a US regional carrier.
-            </li>
-            <li>
-              <strong>Availability</strong>
-              Open to Guidewire consulting roles, hybrid cloud integration projects, or product
-              teams modernising insurance technology stacks.
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="section" id="experience">
-        <h2 class="section-title">Experience</h2>
-        <div class="card">
-          <h3>Associate Consultant · Capgemini</h3>
-          <div class="meta">Jun 2021 – May 2025 · Birmingham, UK</div>
-          <ul>
-            <li>Configured Guidewire ClaimCenter for Zurich UK, improving downstream integration reliability.</li>
-            <li>Delivered development support for the Vantage account with a focus on automation-ready components.</li>
-            <li>Owned the Guidewire upgrade roadmap for State Auto, boosting performance and user experience.</li>
-            <li>Analysed complex data sets to drive actionable insights for cross-functional stakeholders.</li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="section" id="skills">
-        <h2 class="section-title">Toolkit</h2>
-        <div class="grid two">
-          <div class="card">
-            <h3>Languages &amp; Platforms</h3>
-            <div class="chip-list">
-              <span class="chip">Gosu</span>
-              <span class="chip">JavaScript</span>
-              <span class="chip">Python</span>
-              <span class="chip">SQL</span>
-              <span class="chip">JSON</span>
+    <main class="container">
+        <div class="hero-section">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="/assets/images/profile.jpeg" alt="Joslin Gadde" class="profile-photo" />
+                </div>
+                <div class="hero-text">
+                    <h1>Joslin Gadde</h1>
+                    <p class="lead">Associate Consultant | Guidewire Specialist</p>
+                    <p>Accomplished professional with 4+ years in Guidewire technologies, focusing on application configuration and integration. Expertise in developing and designing various Guidewire components such as PCFs, workflows, and batch jobs. Recognized for strong communication and organizational skills, contributing to business process improvements and team collaboration.</p>
+                    <div class="hero-actions">
+                        <a href="/assets/docs/Joslin_Gadde_Resume.pdf" class="btn" target="_blank">Download CV</a>
+                        <a href="https://www.linkedin.com/in/joslingadde" class="btn btn-secondary" target="_blank">LinkedIn</a>
+                        <a href="mailto:joslingadde@gmail.com" class="btn btn-secondary">Contact</a>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="card">
-            <h3>Guidewire &amp; Delivery</h3>
-            <div class="chip-list">
-              <span class="chip">PolicyCenter</span>
-              <span class="chip">ClaimCenter</span>
-              <span class="chip">PCF Design</span>
-              <span class="chip">Workflows</span>
-              <span class="chip">Batch Jobs</span>
+        </div>
+
+        <h2 id="-key-achievements">📊 Key Achievements</h2>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number">4+</div>
+                <p class="stat-label">Years Experience</p>
             </div>
-          </div>
-          <div class="card">
-            <h3>Tools &amp; Operations</h3>
-            <div class="chip-list">
-              <span class="chip">Splunk</span>
-              <span class="chip">WinSCP</span>
-              <span class="chip">ServiceNow</span>
-              <span class="chip">Jira</span>
-              <span class="chip">Office 365</span>
+            <div class="stat-card">
+                <div class="stat-number">3</div>
+                <p class="stat-label">Major Accounts Supported</p>
             </div>
-          </div>
+            <div class="stat-card">
+                <div class="stat-number">5+</div>
+                <p class="stat-label">Technologies Mastered</p>
+            </div>
+            <div class="stat-card highlight-stat">
+                <div class="stat-number">🎓</div>
+                <p class="stat-label">MSc In Progress</p>
+            </div>
         </div>
-      </section>
 
-      <section class="section" id="education">
-        <h2 class="section-title">Education</h2>
-        <div class="grid two">
-          <div class="card">
-            <h3>MSc · Computer Science &amp; Technology with Business Development</h3>
-            <div class="meta">Ulster University · Birmingham · 2025 (in progress)</div>
-            <p>Exploring big data pipelines and scalable software solutions to complement enterprise insurance delivery.</p>
-          </div>
-          <div class="card">
-            <h3>B.Tech · Computer Science &amp; Engineering</h3>
-            <div class="meta">Vel Tech Rangarajan Dr. Sagunthala R&amp;D Institute · 2021 · CGPA 8.6</div>
-            <p>Graduated with distinction. Built a DES-based secure data transmission model in MATLAB as a capstone project.</p>
-          </div>
-        </div>
-      </section>
+        <hr />
 
-      <section class="section" id="certifications">
-        <h2 class="section-title">Certifications</h2>
-        <div class="grid two">
-          <div class="card">
-            <ul>
-              <li>IBM Generative AI Certification</li>
-              <li>Guidewire Certification</li>
-              <li>NPTEL – Social Networks</li>
-              <li>Cisco – Internet of Things</li>
-            </ul>
-          </div>
-          <div class="card">
-            <h3>Learning Priorities</h3>
-            <ul>
-              <li>Scaling Guidewire in hybrid cloud environments</li>
-              <li>AI-powered claims triage and decisioning</li>
-              <li>Modern data modelling for underwriting teams</li>
-            </ul>
-          </div>
-        </div>
-      </section>
+        <h2 id="-work-experience">💼 Work Experience</h2>
 
-      <section class="section" id="projects">
-        <h2 class="section-title">Early Projects &amp; Internships</h2>
-        <div class="grid two">
-          <div class="card">
-            <h3>Online Sports Shoppe</h3>
-            <div class="meta">Capgemini Internship · 2021</div>
-            <p>Delivered a transactional web platform, refining full-stack workflows and stakeholder demos during a fast-paced onboarding bootcamp.</p>
-          </div>
-          <div class="card">
-            <h3>Cochin Shipyard Internship</h3>
-            <div class="meta">Industrial Training · 2019</div>
-            <p>Investigated marine technology operations, documenting optimisation opportunities that informed an internal knowledge base.</p>
-          </div>
-          <div class="card">
-            <h3>Ethical Hacking Workshop</h3>
-            <div class="meta">Puducherry · 2019</div>
-            <p>Hands-on exposure to vulnerability scanning which sparked a security-first mindset applied to every integration build.</p>
-          </div>
-          <div class="card">
-            <h3>Techno Vision 2018</h3>
-            <div class="meta">State Level Project Expo</div>
-            <p>Showcased an early-stage IoT concept, earning recognition for practical application of computer science fundamentals.</p>
-          </div>
+        <div class="section-intro">
+            <p>Delivering high-quality Guidewire solutions for leading insurance carriers, with a focus on configuration, integration, and performance optimization.</p>
         </div>
-      </section>
 
-      <section class="section" id="contact">
-        <h2 class="section-title">Let's Collaborate</h2>
-        <div class="card">
-          <p>Currently based in Birmingham, open to hybrid or remote collaboration across the UK and EU.</p>
-          <ul class="details-list">
-            <li><strong>Location</strong> Birmingham, United Kingdom</li>
-            <li><strong>Email</strong> <a href="mailto:joslingadde@gmail.com">joslingadde@gmail.com</a></li>
-            <li><strong>Phone</strong> <a href="tel:+447818290494">+44 7818 290494</a></li>
-            <li><strong>LinkedIn</strong> <a href="https://www.linkedin.com/in/joslingadde" target="_blank" rel="noopener">linkedin.com/in/joslingadde</a></li>
-          </ul>
-          <a class="resume-link" href="/assets/docs/Joslin_Gadde_Resume.pdf" target="_blank" rel="noopener">View full resume</a>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-year">Jun 2021 - May 2025</div>
+                <div class="timeline-content">
+                    <h3>Associate Consultant – Capgemini</h3>
+                    <p><strong>Location:</strong> Birmingham, United Kingdom</p>
+                    <ul>
+                        <li>Configured Guidewire CC for Zurich-UK account, improving integration processes.</li>
+                        <li>Delivered comprehensive support for Vantage account, focusing on development needs.</li>
+                        <li>Led upgrade integration for State Auto account's GW claims centre, boosting performance.</li>
+                        <li>Conducted analysis of complex data sets to drive strategic business insights.</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </section>
+
+        <hr />
+
+        <h2 id="-projects">🚀 Projects & Academic Work</h2>
+
+        <div class="section-intro">
+            <p>Exploring innovative solutions at the intersection of technology and business strategy through academic projects and professional development.</p>
+        </div>
+
+        <div class="card-grid">
+            <div class="card">
+                <h3>Business Strategy Fundamentals</h3>
+                <p class="meta">MSc Coursework • Ulster University</p>
+                <p>Academic project focusing on business analysis fundamentals and strategic decision-making in technology contexts. This coursework demonstrates ability to integrate technical expertise with business development principles.</p>
+                <div class="tag-list">
+                    <span class="tag">Business Analysis</span>
+                    <span class="tag">Strategy</span>
+                    <span class="tag">Academic Research</span>
+                </div>
+                <div style="margin-top: 1.5rem;">
+                    <a href="https://github.com/GJoslin/Business-Strategy-Fundamentals" class="btn" target="_blank">View on GitHub →</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Online Sports Shoppe Application</h3>
+                <p class="meta">Internship Project • Capgemini (Mar 2021 - Jun 2021)</p>
+                <p>Delivered a transactional web platform during a fast-paced onboarding bootcamp, refining full-stack workflows and stakeholder demos.</p>
+                <div class="tag-list">
+                    <span class="tag">Web Development</span>
+                    <span class="tag">Full-Stack</span>
+                    <span class="tag">Internship</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Secure Data Transmission using DES</h3>
+                <p class="meta">B.Tech Minor Project • MATLAB</p>
+                <p>Developed a secure data transmission system using DES (Data Encryption Standard) algorithm, demonstrating understanding of cryptographic principles and secure communication protocols.</p>
+                <div class="tag-list">
+                    <span class="tag">Cryptography</span>
+                    <span class="tag">MATLAB</span>
+                    <span class="tag">Security</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Cochin Shipyard Internship</h3>
+                <p class="meta">Industrial Training • Nov 2019</p>
+                <p>Investigated marine technology operations, documenting optimisation opportunities that informed an internal knowledge base.</p>
+                <div class="tag-list">
+                    <span class="tag">Marine Technology</span>
+                    <span class="tag">Documentation</span>
+                    <span class="tag">Analysis</span>
+                </div>
+            </div>
+        </div>
+
+        <hr />
+
+        <h2 id="-skills">🛠️ Skills & Technologies</h2>
+
+        <div class="card-grid">
+            <div class="card">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>Gosu</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>SQL</li>
+                    <li>HTML, JSON</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Guidewire Technologies</h3>
+                <ul>
+                    <li>PolicyCenter (PC) Configuration</li>
+                    <li>ClaimCenter (CC) Configuration</li>
+                    <li>PCF Development & Design</li>
+                    <li>Workflow Development</li>
+                    <li>Batch Job Development</li>
+                    <li>Integration Development</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Tools & Platforms</h3>
+                <ul>
+                    <li>Splunk (Log Access & Analysis)</li>
+                    <li>WinSCP</li>
+                    <li>ServiceNow (AMS)</li>
+                    <li>Jira</li>
+                    <li>Office 365</li>
+                    <li>Database Management</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr />
+
+        <h2 id="-education">🎓 Education</h2>
+
+        <div class="card-grid">
+            <div class="card">
+                <h3>Master of Science: Computer Science and Technology with Business Development</h3>
+                <p class="meta">Ulster University - Birmingham, United Kingdom<br />May 2025 - Current</p>
+                <p>Focus on Big data and Scalability on Software solutions. Integrating technical expertise with business strategy and development principles.</p>
+            </div>
+            <div class="card">
+                <h3>Bachelor of Technology: Computer Science and Engineering</h3>
+                <p class="meta">Vel tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology<br />Chennai, Tamil Nadu • Apr 2017 - Mar 2021 • CGPA: 8.6</p>
+                <p>Graduated with distinction. Minor Project: Secured data transmission using DES algorithm in MATLAB. Participated in State level Project Expo - Techno Vision 2018.</p>
+            </div>
+        </div>
+
+        <hr />
+
+        <h2 id="-certifications">🏆 Certifications & Learning</h2>
+
+        <div class="card-grid">
+            <div class="card">
+                <h3>Professional Certifications</h3>
+                <ul>
+                    <li>Gen AI - IBM Certification</li>
+                    <li>Guidewire Certification</li>
+                    <li>NPTEL - Social Networks</li>
+                    <li>Cisco Certification - IoT</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Workshops & Training</h3>
+                <ul>
+                    <li>Ethical Hacking Workshop, Puducherry (Feb 2019)</li>
+                    <li>State level Project Expo - Techno Vision 2018</li>
+                    <li>Continuous professional development in Guidewire technologies</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr />
+
+        <h2 id="-contact">📧 Contact</h2>
+
+        <div class="collaboration-cta">
+            <h2>Let's Connect</h2>
+            <p>Currently based in Birmingham, UK. Open to opportunities, collaborations, and discussions about Guidewire technologies, software development, and business strategy.</p>
+            <div class="collaboration-actions">
+                <a href="mailto:joslingadde@gmail.com" class="btn">Email Me</a>
+                <a href="https://www.linkedin.com/in/joslingadde" class="btn btn-secondary" target="_blank">LinkedIn</a>
+                <a href="/assets/docs/Joslin_Gadde_Resume.pdf" class="btn btn-secondary" target="_blank">View CV</a>
+            </div>
+            <div style="margin-top: 2rem; text-align: left; max-width: 600px; margin-left: auto; margin-right: auto;">
+                <p><strong>Location:</strong> Birmingham, United Kingdom</p>
+                <p><strong>Email:</strong> <a href="mailto:joslingadde@gmail.com">joslingadde@gmail.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+447818290494">+44 7818 290494</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/joslingadde" target="_blank">www.linkedin.com/in/joslingadde</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/GJoslin" target="_blank">github.com/GJoslin</a></p>
+            </div>
+        </div>
+
     </main>
 
-    <footer class="footer">
-      <div class="container">
-        <p>&copy; <span id="copyright-year"></span> Joslin Gadde. Crafted with care in Birmingham.</p>
-      </div>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><strong>Location:</strong> Birmingham, United Kingdom</p>
+                    <p><strong>Email:</strong> <a href="mailto:joslingadde@gmail.com">joslingadde@gmail.com</a></p>
+                    <p><strong>Phone:</strong> <a href="tel:+447818290494">+44 7818 290494</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow</h3>
+                    <ul class="social-links">
+                        <li><a href="https://www.linkedin.com/in/joslingadde" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://github.com/GJoslin" target="_blank">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Joslin Gadde. Powered by GitHub Pages.</p>
+            </div>
+        </div>
     </footer>
 
-    <button class="back-to-top" id="back-to-top" aria-label="Back to top">↑</button>
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">↑</button>
 
     <script>
-      (function () {
-        const html = document.documentElement;
+        // Dark Mode Toggle
         const themeToggle = document.getElementById('theme-toggle');
-        const navToggle = document.getElementById('mobile-menu');
-        const navMenu = document.getElementById('nav-menu');
-        const backToTop = document.getElementById('back-to-top');
+        const html = document.documentElement;
+        
+        // Check for saved theme preference or default to light mode
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        if (currentTheme === 'dark') {
+            html.setAttribute('data-theme', 'dark');
+            themeToggle.textContent = '☀️';
+        }
+        
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            
+            html.setAttribute('data-theme', newTheme);
+            themeToggle.textContent = newTheme === 'dark' ? '☀️' : '🌙';
+            localStorage.setItem('theme', newTheme);
+        });
 
-        const savedTheme = localStorage.getItem('theme') || 'light';
-        if (savedTheme === 'dark') {
-          html.setAttribute('data-theme', 'dark');
-          themeToggle.textContent = '☀️';
+        // Mobile Menu Toggle
+        const menuToggle = document.querySelector('.mobile-menu-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        if (menuToggle) {
+            menuToggle.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+                menuToggle.classList.toggle('active');
+            });
         }
 
-        themeToggle.addEventListener('click', () => {
-          const isDark = html.getAttribute('data-theme') === 'dark';
-          html.setAttribute('data-theme', isDark ? 'light' : 'dark');
-          themeToggle.textContent = isDark ? '🌙' : '☀️';
-          localStorage.setItem('theme', isDark ? 'light' : 'dark');
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (navMenu && !navMenu.contains(e.target) && !menuToggle.contains(e.target)) {
+                navMenu.classList.remove('active');
+                menuToggle.classList.remove('active');
+            }
         });
 
-        navToggle.addEventListener('click', () => {
-          navMenu.classList.toggle('active');
-        });
-
-        document.addEventListener('click', (event) => {
-          if (!navMenu.contains(event.target) && !navToggle.contains(event.target)) {
-            navMenu.classList.remove('active');
-          }
-        });
-
+        // Back to Top Button
+        const backToTop = document.querySelector('.back-to-top');
+        
         window.addEventListener('scroll', () => {
-          if (window.scrollY > 260) {
-            backToTop.classList.add('show');
-          } else {
-            backToTop.classList.remove('show');
-          }
+            if (window.pageYOffset > 300) {
+                backToTop.classList.add('show');
+            } else {
+                backToTop.classList.remove('show');
+            }
         });
 
-        backToTop.addEventListener('click', () => {
-          window.scrollTo({ top: 0, behavior: 'smooth' });
+        if (backToTop) {
+            backToTop.addEventListener('click', () => {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+        }
+
+        // Highlight active nav link
+        const currentPath = window.location.pathname;
+        const navLinks = document.querySelectorAll('.nav-menu a');
+        
+        navLinks.forEach(link => {
+            if (link.getAttribute('href') === currentPath || 
+                (currentPath === '/' && link.getAttribute('href') === '/')) {
+                link.classList.add('active');
+            }
         });
 
-        document.getElementById('copyright-year').textContent = new Date().getFullYear();
-      })();
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#' && href.length > 1) {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                }
+            });
+        });
     </script>
-  </body>
+</body>
 </html>
 
